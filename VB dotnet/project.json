@@ -1,0 +1,71 @@
+{
+  "name": "VBDOTNET",
+  "projectId": "77e83d14-f423-4fdf-8e6b-dd7945131e40",
+  "description": "Blank Process",
+  "main": "python.xaml",
+  "dependencies": {
+    "UiPath.Python.Activities": "[1.10.0]",
+    "UiPath.System.Activities": "[25.6.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.0.172.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "df124480-460b-48bd-aa8c-7532197baf41",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "a41a86e4-a881-4ec8-b97f-6154e74edf8c",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "python.xaml",
+      "uniqueId": "e1dc5223-e18d-4b39-b758-87a5bd0e1994",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
